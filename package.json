@@ -1,0 +1,27 @@
+{
+  "name": "Telegram-bot-practice",
+  "version": "1.0.0",
+  "description": "Node.js practice with telegram bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "clear && nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViktorPalchynskyi/Telegram-bot-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViktorPalchynskyi/Telegram-bot-practice/issues"
+  },
+  "homepage": "https://github.com/ViktorPalchynskyi/Telegram-bot-practice#readme",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.4",
+    "nodemon": "^3.0.3",
+    "telegraf": "^4.15.3"
+  }
+}
