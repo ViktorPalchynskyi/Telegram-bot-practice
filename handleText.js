@@ -4,7 +4,7 @@ const axios = require('axios');
 module.exports = async (ctx) => {
     const { text } = ctx.message;
 
-    if (text.length > 100) {
+    if (text.length > 1000) {
         ctx.reply('Your message is too long');
         return;
     }
@@ -27,5 +27,5 @@ module.exports = async (ctx) => {
         responseType: 'arraybuffer',
     });
 
-    ctx.sendVoice({ source: sound.data, filename: 'autio' });
+    ctx.sendVoice({ source: sound.data, filename: 'audio' });
 };
